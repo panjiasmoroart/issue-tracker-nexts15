@@ -44,4 +44,20 @@ const IssuesPage = async () => {
   );
 };
 
+// # log hasil build
+// ○ /issues
+// ƒ /issues/[id]
+// ƒ /issues/[id]/edit
+
+// ○  (Static)   prerendered as static content
+// ƒ  (Dynamic)  server-rendered on demand
+
+// change the dynamic behavior of a layout or page to fully static or fully dynamic.
+export const dynamic = "force-dynamic";
+// 'auto' | 'force-dynamic' | 'error' | 'force-static'
+
+// optional, if 0 every 0 seconds, meaning all time
+// export const revalidate = false
+// false | 0 | number
+
 export default IssuesPage;

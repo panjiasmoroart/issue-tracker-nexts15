@@ -43,6 +43,9 @@ const IssueForm = ({ issue }: { issue?: Issue }) => {
       }
 
       router.push("/issues");
+      // for dynamic route, agar pada saat selesai insert tidak perlu reload
+      // setelah aplikasi nexjts di build
+      router.refresh();
     } catch (error) {
       console.log(error);
       setSubmitting(false);

@@ -1,0 +1,185 @@
+[33mcommit 430686244bfc45c1374a517a1c693b2ccc040274[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Mon Dec 2 07:24:18 2024 +0700
+
+    Updating Issues - Updating Issues
+
+[33mcommit 190c944c71ee0b84c2014ffed7ed1b1e06efee86[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Mon Dec 2 07:15:57 2024 +0700
+
+    Updating Issues - Building an API
+
+[33mcommit fd1bd36a202fe49a33d1d6b76a6a106e991ea083[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 22:39:48 2024 +0700
+
+    Updating Issues - Building the Edit Issue Page
+
+[33mcommit 7b1a55f042b6bb9018b43d60d0b1f3bccbd9aeb2[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 22:19:58 2024 +0700
+
+    Updating Issues - Applying the Single Responsibility Principle
+
+[33mcommit 1bf37ffa1959ef51601de3b5ff796203ce200c45[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 22:04:49 2024 +0700
+
+    Updating Issues - Adding the Edit Button
+
+[33mcommit fd6c5986e02b964456a05669a955537a648314aa[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 19:25:50 2024 +0700
+
+    Viewing Issues - Refactoring Organizing Imports
+
+[33mcommit 1b883825de15ae34ae7c2b4f87b0afc49597635a[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 17:11:39 2024 +0700
+
+    Viewing Issues - Disabling Server-side-Rendering for Loading SimpleMDE Editor
+
+[33mcommit e9f89237bcae0d5fd5cc9768e75523b264416a6d[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 17:03:34 2024 +0700
+
+    Viewing Issues - Addtitional Loading Skeletons
+
+[33mcommit f9f825e62a8d3b1995d5648254914ecfad135044[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 16:46:05 2024 +0700
+
+    Viewing Issues - Building a Styled Link
+
+[33mcommit 6f1b0a700c9e153cb4a0d37ac49ff1c080962bb7[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Sun Dec 1 16:30:27 2024 +0700
+
+    Viewing Issues - Adding Markdown Preview
+
+[33mcommit 2e3eee783feb58c78346036e38918b51f589b91b[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Nov 28 12:11:06 2024 +0700
+
+    Viewing Issues - Styling the Issue Detail Page
+
+[33mcommit 1c7a9095b59b3a270292171e57812285bf84d546[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Nov 28 08:45:07 2024 +0700
+
+    Viewing Issues - Showing Issue Details
+
+[33mcommit 3b3af2c7f4d1dc3a1340ac6e073bea7e279990e6[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Nov 28 08:04:00 2024 +0700
+
+    Viewing Issues - Adding Loading Skeletons
+
+[33mcommit 04cb3bcd89b174998697a5fd767404f0bd58d8f2[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Tue Nov 26 08:16:44 2024 +0700
+
+    Viewing Issues - Building the Issue Status Badge
+
+[33mcommit c69cfdfc36883e9fbf6b272facf654d683753ba8[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Tue Nov 26 08:00:01 2024 +0700
+
+    Viewing Issues - Showing the Issues
+
+[33mcommit 27e1110f23fc8290cebb12f6ec116890464078e7[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Tue Nov 26 07:19:05 2024 +0700
+
+    Creating Issues - Discussion - Code Organization
+
+[33mcommit 11f769392cd02c71432f98c4a382eb1a3b24c5ae[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Tue Nov 26 07:13:02 2024 +0700
+
+    Creating Issues - Adding a Spinner
+
+[33mcommit 615a65d394a1090998d1c9eff2a2cc9903ae5abe[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Mon Nov 18 23:04:35 2024 +0700
+
+    Creating Issues - Extracting the ErrorMessage Component
+
+[33mcommit 04cc6e2bfd66d48afdaefcc451377534843e9efe[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Mon Nov 18 22:32:41 2024 +0700
+
+    Creating Issues - Implementing Client Side Validation
+
+[33mcommit bbe57a70388745c1f59a50c98b6a3750c8d970f8[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Oct 24 09:39:52 2024 +0700
+
+    Creating Issues - Handling Errors
+
+[33mcommit f7c47116047957c15070b872d55d28c431df52a6[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Oct 24 09:24:11 2024 +0700
+
+    Creating Issues - Handling Form Submission
+
+[33mcommit f88363a7236afe2175aee81318f7376ccad882f8[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Oct 24 00:44:22 2024 +0700
+
+    Creating Issues - Adding a Markdown Editor
+
+[33mcommit a3d481bbf3b4de2ed6f14837d9ac2239e74ffb13[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Oct 24 00:36:31 2024 +0700
+
+    Creating Issues - Customizing Radix UI
+
+[33mcommit edbf3bb43d5805520b64b3007bbbeb772a8428b9[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Thu Oct 24 00:07:44 2024 +0700
+
+    Creating Issues - Building the New Issue
+
+[33mcommit 255d28f4825631d2e7da8a6e8680ae62baebba0a[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 23:48:42 2024 +0700
+
+    Creating Issues - Setting Up Radix UI
+
+[33mcommit be5b309dc3fc808a4ddb65452f889bd8f74142c2[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 23:41:28 2024 +0700
+
+    Creating Issues - Building an API
+
+[33mcommit 992189007a7112650d98e830432c4ee77b599e1c[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 23:16:04 2024 +0700
+
+    Creating Issues - Building an API
+
+[33mcommit ef7a6805f1f71147e1b6f33de7b160b876b48ef7[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 23:05:20 2024 +0700
+
+    Creating Issues - Setting Up Prisma
+
+[33mcommit 9c0c510cf47393bc3003c9bc7426602c0cf710a4[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 22:26:17 2024 +0700
+
+    Setting Up the Project - Styling the Active Link
+
+[33mcommit d86b0158a92967681ac155622d0d42d04931cb38[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 21:47:35 2024 +0700
+
+    Setting Up the Project - Building the navbar
+
+[33mcommit f09ec8f5f9c78c3d079e186d1b9bf9633cd37612[m
+Author: panjiasmoroart <pandjiasmoroart@gmail.com>
+Date:   Wed Oct 23 21:23:37 2024 +0700
+
+    Setting Up the Project - Creating the Project
