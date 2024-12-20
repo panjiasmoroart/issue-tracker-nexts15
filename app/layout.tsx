@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import { Container, Theme } from "@radix-ui/themes";
 // import localFont from "next/font/local";
 import { Inter } from "next/font/google";
+import AuthProvider from "./auth/Provider";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -36,16 +37,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable}>
-        {/* <body
+        <AuthProvider>
+          {/* <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       > */}
-        <Theme appearance="light" accentColor="violet">
-          <NavBar />
-          <main className="p-5">
-            <Container>{children}</Container>
-          </main>
-          {/* <ThemePanel /> */}
-        </Theme>
+          <Theme appearance="light" accentColor="violet">
+            <NavBar />
+            <main className="p-5">
+              <Container>{children}</Container>
+            </main>
+            {/* <ThemePanel /> */}
+          </Theme>
+        </AuthProvider>
       </body>
     </html>
   );
