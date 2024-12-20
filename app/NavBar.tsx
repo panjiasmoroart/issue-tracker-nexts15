@@ -9,7 +9,6 @@ import { useSession } from "next-auth/react";
 import {
   Avatar,
   Box,
-  Button,
   Container,
   DropdownMenu,
   Flex,
@@ -56,6 +55,7 @@ const NavBar = () => {
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger>
                   <Text>
+                    {/* allow image 403 forbidden -> referrerPolicy="no-referrer" */}
                     <Avatar
                       src={session!.user!.image!}
                       fallback="?"
