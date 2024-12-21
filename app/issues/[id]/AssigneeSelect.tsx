@@ -6,9 +6,11 @@ import { Select } from "@radix-ui/themes";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 const AssigneeSelect = ({ issue }: { issue: Issue }) => {
   const { data: users, error, isLoading } = useUsers();
+  const router = useRouter();
 
   if (isLoading) return <Skeleton />;
 
@@ -21,6 +23,7 @@ const AssigneeSelect = ({ issue }: { issue: Issue }) => {
       })
       .then(() => {
         toast.success("Issue assigned successfully!");
+        router.refresh();
       })
       .catch(() => {
         toast.error("Changes could not be saved.");
