@@ -10,7 +10,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 model Issue {
   id               Int      @id @default(autoincrement())
   title            String   @db.VarChar(255)
@@ -18,8 +17,8 @@ model Issue {
   status           Status   @default(OPEN)
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
-  // assignedToUserId String?  @db.VarChar(255)
-  // assignedToUser   User?    @relation(fields: [assignedToUserId], references: [id])
+  assignedToUserId String?  @db.VarChar(255)
+  assignedToUser   User?    @relation(fields: [assignedToUserId], references: [id])
 }
 
 enum Status {
@@ -63,7 +62,7 @@ model User {
   image          String?
   accounts       Account[]
   sessions       Session[]
-  // assignedIssues Issue[]
+  assignedIssues Issue[]
 }
 
 model VerificationToken {
