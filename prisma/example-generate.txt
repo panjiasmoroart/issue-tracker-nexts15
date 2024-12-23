@@ -1,0 +1,142 @@
+-- Insert records into the 'Issue' table
+INSERT INTO Issue (title, description, status, createdAt, updatedAt) VALUES
+
+-- Record 1
+('User unable to reset password', 
+ 'Several users report that the password reset link sent to their email is either expired or not working.', 
+ 'OPEN', 
+ '2024-12-23 10:00:00', 
+ '2024-12-23 10:00:00'),
+
+-- Record 2
+('Search function returns irrelevant results', 
+ 'Users are experiencing issues with the search function returning results unrelated to their query.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 11:00:00', 
+ '2024-12-23 12:00:00'),
+
+-- Record 3
+('App crashes on Android devices', 
+ 'After the latest update, the app frequently crashes when users try to open it on Android devices.', 
+ 'OPEN', 
+ '2024-12-23 09:30:00', 
+ '2024-12-23 09:30:00'),
+
+-- Record 4
+('Payment system timeout errors', 
+ 'Customers are reporting timeout errors while trying to process payments during checkout.', 
+ 'CLOSED', 
+ '2024-12-23 14:00:00', 
+ '2024-12-23 16:30:00'),
+
+-- Record 5
+('Dead links on the contact page', 
+ 'Links to the support email and FAQ page on the contact page are not working and lead to 404 errors.', 
+ 'OPEN', 
+ '2024-12-23 15:20:00', 
+ '2024-12-23 15:20:00'),
+
+-- Record 6
+('Checkout page buttons unresponsive', 
+ 'Customers are unable to complete orders as the "Proceed to Payment" button does not respond to clicks.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 08:45:00', 
+ '2024-12-23 09:15:00'),
+
+-- Record 7
+('Push notifications delayed', 
+ 'Users are receiving push notifications hours after the events occur, affecting real-time engagement.', 
+ 'CLOSED', 
+ '2024-12-23 12:00:00', 
+ '2024-12-23 10:00:00'),
+
+-- Record 8
+('File uploads fail intermittently', 
+ 'Users report that file uploads fail with a timeout error, particularly for files over 5MB.', 
+ 'OPEN', 
+ '2024-12-23 11:30:00', 
+ '2024-12-23 11:30:00'),
+
+-- Record 9
+('Date format inconsistent in reports', 
+ 'Reports are displaying dates in different formats (MM/DD/YYYY and DD/MM/YYYY), causing confusion.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 14:45:00', 
+ '2024-12-23 10:00:00'),
+
+-- Record 10
+('Weekend server slowdown', 
+ 'The website experiences significant performance issues during peak hours on weekends.', 
+ 'OPEN', 
+ '2024-12-23 08:00:00', 
+ '2024-12-23 08:00:00'),
+
+-- Record 11
+('Translation errors in Spanish version', 
+ 'Several phrases on the Spanish version of the website are poorly translated or left in English.', 
+ 'OPEN', 
+ '2024-12-23 10:30:00', 
+ '2024-12-23 10:30:00'),
+
+-- Record 12
+('Streaming videos buffer frequently', 
+ 'Users report frequent buffering issues when watching videos, despite having a strong internet connection.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 09:00:00', 
+ '2024-12-23 11:15:00'),
+
+-- Record 13
+('System emails marked as spam', 
+ 'Transactional emails, such as order confirmations, are being flagged as spam by email providers.', 
+ 'OPEN', 
+ '2024-12-23 13:00:00', 
+ '2024-12-23 13:00:00'),
+
+-- Record 14
+('Safari browser rendering issues', 
+ 'Certain web elements are misaligned or broken when viewed on Safari browsers.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 14:20:00', 
+ '2024-12-23 10:00:00'),
+
+-- Record 15
+('Duplicate accounts created during registration', 
+ 'The registration system is occasionally creating multiple accounts for a single user.', 
+ 'CLOSED', 
+ '2024-12-23 12:30:00', 
+ '2024-12-23 14:00:00'),
+
+-- Record 16
+('Dark mode toggle broken', 
+ 'The dark mode toggle switch does not change the website theme to dark mode.', 
+ 'OPEN', 
+ '2024-12-23 09:40:00', 
+ '2024-12-23 09:40:00'),
+
+-- Record 17
+('Live chat feature unresponsive', 
+ 'The live chat window on the support page does not allow users to type or send messages.', 
+ 'OPEN', 
+ '2024-12-23 15:00:00', 
+ '2024-12-23 15:00:00'),
+
+-- Record 18
+('Error on order confirmation page', 
+ 'Customers are seeing a "500 Internal Server Error" message after completing orders.', 
+ 'IN_PROGRESS', 
+ '2024-12-23 11:00:00', 
+ '2024-12-23 09:00:00'),
+
+-- Record 19
+('Misaligned icons in user dashboard', 
+ 'Icons in the dashboard appear out of place after a recent layout update.', 
+ 'CLOSED', 
+ '2024-12-23 08:15:00', 
+ '2024-12-23 12:00:00'),
+
+-- Record 20
+('API response times slow', 
+ 'The API has been responding slower than usual, causing delays in app functionality.', 
+ 'OPEN', 
+ '2024-12-23 10:30:00', 
+ '2024-12-23 10:30:00');
